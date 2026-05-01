@@ -3,7 +3,7 @@
 Minimal reproduction for a `WKWebView` HTML5 element fullscreen issue on macOS
 when the web view is hosted via SwiftUI's `NSViewRepresentable` and AutoLayout.
 
-Reported as: [WebKit Bugzilla #313802](https://bugs.webkit.org/show_bug.cgi?id=313802).
+Reported as: [WebKit Bugzilla #313802](https://bugs.webkit.org/show_bug.cgi?id=313802) / Apple Feedback FB22665668.
 
 ## Symptom
 
