@@ -17,8 +17,8 @@ final class WebViewHolder {
         configuration.preferences.isElementFullscreenEnabled = true
         let webView = WKWebView(frame: .zero, configuration: configuration)
         webView.isInspectable = true
-        // baseURL を nil にすると opaque origin 扱いになり、メディア要素の
-        // ロードが弾かれることがあるため、明示的な https オリジンを与える。
+        // Passing a nil baseURL gives the page an opaque origin, which can
+        // block media loads. Use an explicit https origin instead.
         webView.loadHTMLString(reproHTML, baseURL: URL(string: "https://example.com/"))
         self.webView = webView
     }
