@@ -149,4 +149,5 @@ side by side.
 ## Attachments
 
 - Repro repository: https://github.com/mnkd/wkwebview-element-fullscreen-repro
-- Screenshots / video of broken vs. working behavior (TBD)
+- Broken behavior recording: https://github.com/mnkd/wkwebview-element-fullscreen-repro/blob/main/media/broken.mov
+- Workaround recording: https://github.com/mnkd/wkwebview-element-fullscreen-repro/blob/main/media/workaround.mov

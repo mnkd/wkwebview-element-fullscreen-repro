@@ -16,6 +16,11 @@ With `WKPreferences.isElementFullscreenEnabled = true`:
 
 This does not happen in Safari.
 
+Recordings of both modes (right-click → Enter Full Screen):
+
+- Broken (Direct hosting): [`media/broken.mov`](media/broken.mov)
+- Workaround (Container NSView): [`media/workaround.mov`](media/workaround.mov)
+
 The system console emits:
 
 > Attempting to update all DD element frames, but the bounds or contentsRect
