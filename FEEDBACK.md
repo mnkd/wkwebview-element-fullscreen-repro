@@ -3,7 +3,7 @@
 Short, concrete version for Feedback Assistant.
 
 Repro repository: <https://github.com/mnkd/wkwebview-element-fullscreen-repro>
-Replace `<BUGZILLA_URL>` once the WebKit Bugzilla report is filed.
+WebKit Bugzilla report: <https://bugs.webkit.org/show_bug.cgi?id=313802>
 
 ---
 
@@ -65,7 +65,7 @@ inline size, and the rest of the fullscreen window is black.
 ## Notes
 
 - WebKit Bugzilla report with full analysis and suggested fixes:
-  <BUGZILLA_URL>
+  <https://bugs.webkit.org/show_bug.cgi?id=313802>
 - Console emits "Attempting to update all DD element frames, but the bounds
   or contentsRect are invalid. Bounds: X: 0.00 Y: 0.00, W: 0.00 H: 0.00 ..."
 - The same symptom is reported by another developer at
