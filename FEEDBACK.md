@@ -1,7 +1,9 @@
 # Feedback Assistant draft
 
-Short, concrete version for Feedback Assistant. Replace `<REPO_URL>` and
-`<BUGZILLA_URL>` once they exist.
+Short, concrete version for Feedback Assistant.
+
+Repro repository: <https://github.com/mnkd/wkwebview-element-fullscreen-repro>
+Replace `<BUGZILLA_URL>` once the WebKit Bugzilla report is filed.
 
 ---
 
@@ -42,7 +44,7 @@ the WKWebView is wrapped in a container `NSView` with
 
 ## Steps to reproduce
 
-1. Clone the minimal repro at <REPO_URL>
+1. Clone the minimal repro at https://github.com/mnkd/wkwebview-element-fullscreen-repro
 2. `swift run`
 3. Wait for the Big Buck Bunny clip to load
 4. Right-click the video → "Enter Full Screen"
@@ -75,4 +77,4 @@ inline size, and the rest of the fullscreen window is black.
 
 - macOS 26.x
 - Xcode 26.x
-- Repro project source: <REPO_URL>
+- Repro project source: https://github.com/mnkd/wkwebview-element-fullscreen-repro

@@ -1,8 +1,8 @@
 # WebKit Bugzilla draft
 
-Filing template for <https://bugs.webkit.org/>. Replace `<REPO_URL>` with the
-public GitHub URL once the repo is pushed (e.g.
-`https://github.com/mnkd/wkwebview-element-fullscreen-repro`).
+Filing template for <https://bugs.webkit.org/>.
+
+Repro repository: <https://github.com/mnkd/wkwebview-element-fullscreen-repro>
 
 ---
 
@@ -61,7 +61,7 @@ ancestor (see Workaround below).
 
 ## Steps to reproduce
 
-1. Clone <REPO_URL>
+1. Clone https://github.com/mnkd/wkwebview-element-fullscreen-repro
 2. `swift run` (or open `Package.swift` in Xcode and Run)
 3. Wait for the Big Buck Bunny clip to load
 4. Right-click the video → **Enter Full Screen**
@@ -148,5 +148,5 @@ side by side.
 
 ## Attachments
 
-- Repro repository: <REPO_URL>
+- Repro repository: https://github.com/mnkd/wkwebview-element-fullscreen-repro
 - Screenshots / video of broken vs. working behavior (TBD)
