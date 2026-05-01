@@ -10,9 +10,14 @@ Repro repository: <https://github.com/mnkd/wkwebview-element-fullscreen-repro>
 
 - Product: **WebKit**
 - Component: **Fullscreen** (or **WebKit2** if Fullscreen is not available)
-- Version: **Safari Technology Preview** (or specific macOS version)
-- Hardware / OS: **All / macOS 14+**
+- Version: **Safari 26** (system WebKit shipped with macOS 26)
+- Hardware: **Mac**
+- OS: **macOS 26**
 - Severity: **Normal**
+
+Reproduced on macOS 26.4.1 (build 25E253) with the system WKWebView.
+The faulty code path in `Source/WebKit/UIProcess/mac/WKFullScreenWindowController.mm`
+predates this release, so older macOS versions are likely affected as well.
 
 ## Summary
 
